@@ -22,8 +22,9 @@ li {
   list-style: none;
   float: left;
 }
+
 p {
-	color: rgba(	47,79,79,1);
+  color: rgba( 47, 79, 79, 1);
 }
 
 .header {
@@ -35,7 +36,7 @@ p {
   z-index: 1;
 }
 
-.header_inner, .nav_inner, .content_inner, .button{
+.header_inner, .nav_inner, .content_inner, .button {
   width: 1030px;
   margin: 0px auto;
   overflow: hidden;
@@ -163,9 +164,11 @@ p {
   padding: 10px 0px;
   text-align: center;
 }
+
 .footer .button {
-	width: 100px;
+  width: 100px;
 }
+
 .button a {
-	width: 20px;
+  width: 20px;
 }
