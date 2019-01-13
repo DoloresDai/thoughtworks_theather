@@ -1,0 +1,75 @@
+body {
+  background: url(../images/background/bd_background.png);
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: rgba(0, 128, 128, 1);
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 128, 128, 0.8);
+}
+
+li {
+  list-style: none;
+  float: left;
+}
+
+p {
+  color: rgba( 47, 79, 79, 1);
+}
+
+.header {
+  background: url(../images/background/hd_background.jpg);
+  position: fixed;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+.header_inner, .content_inner, .button {
+  width: 1030px;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+.logo {
+  float: left;
+}
+
+.search_inner {
+  float: right;
+  margin-top: 20px;
+}
+
+.search input {
+  padding: 5px 20px;
+  float: left;
+  background: rgba(233, 238, 226, 0.2) url(../images/header/search.png) no-repeat left bottom;
+  outline: none;
+}
+
+.search button {
+  width: 81px;
+  height: 30px;
+  background: url(../images/header/search_btn.png);
+  outline: none;
+  border-radius: 5px;
+  float: left;
+}
+
+.search button:hover {
+  background: url(../images/header/search_btn_active.png);
+}
+
+.footer .button {
+  width: 100px;
+}
+
+.button a {
+  width: 20px;
+}
